@@ -1,0 +1,3 @@
+SITE=rust.kemitchell.com
+make
+scp index.html tags.css $SITE:/var/www/$SITE/

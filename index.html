@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>K.E. Mitchell’s Rust Notes</title>
+  <link href="https://readable.kemitchell.com/all.css" rel="stylesheet">
+</head>
+<body>
+  <header role="banner">
+    <h1>K.E. Mitchell’s Rust Notes</h1>
+  </header>
+  <nav role="navigation">
+    <ol>
+      <li>
+        <a href="#components">Rust Components to Install</a>
+      </li>
+      <li>
+        <a href="#types">General-Purpose Types</a>
+      </li>
+      <li>
+        <a href="#crates">Crates of Note</a>
+      </li>
+    </ol>
+  </nav>
+  <main role="main">
+    <h2 id="components">Rust Components to Install</h2>
+    <ul>
+      <li><code>rustfmt</code></li>
+      <li><code>clippy</code></li>
+    </ul>
+    <h2 id="types">General-Purpose Types</h2>
+    <dl>
+      <dt>
+        <a href="https://doc.rust-lang.org/std/future/trait.Future.html"><code>std::future::Future</code></a>
+      </dt>
+      <dd>futures for <code>async</code>, <code>await</code></dd>
+      <dt>
+        <a href="https://doc.rust-lang.org/std/option/enum.Option.html"><code>std::option::Option</code></a>
+      </dt>
+      <dd><code>Some</code> or <code>None</code></dd>
+      <dt>
+        <a href="https://doc.rust-lang.org/std/result/enum.Result.html"><code>std::result::Result&lt;T,E&gt;</code></a>
+      </dt>
+      <dd><code>Ok(T)</code> or <code>Err(E)</code></dd>
+    </dl>
+    <h2 id="crates">Crates of Note</h2>
+    <dl>
+      <dt>
+        <a href="https://crates.io/crates/tokio">tokio</a>
+      </dt>
+      <dd>aynchronous runtime</dd>
+      <dt>
+        <a href="https://crates.io/crates/hyper">hyper</a>
+      </dt>
+      <dd>low-level HTTP client and server</dd>
+      <dt>
+        <a href="https://crates.io/crates/serde">serde</a>
+      </dt>
+      <dd>multi-format serialization and deserialization framework</dd>
+    </dl>
+  </main>
+  <footer role="contentinfo">
+    <p>© K.E. Mitchell</p>
+  </footer>
+</body>
+</html>

@@ -48,6 +48,18 @@
       </dt>
       <dd>simplest heap allocation</dd>
       <dd><code>Box::new(value)</code> and <code>let value: u8 = *boxed</code></dd>
+      <dt>
+        <a href="https://doc.rust-lang.org/std/rc/struct.Rc.html">std::rc::Rc&lt;T&gt;</a>
+      </dt>
+      <dd>single-threaded, non-atomic-reference-counted pointer</dd>
+      <dt>
+        <a href="https://doc.rust-lang.org/std/rc/struct.Weak.html">std::rc::Weak&lt;T&gt;</a>
+      </dt>
+      <dd><code>Rc</code> for non-owning references</dd>
+      <dt>
+        <a href="https://doc.rust-lang.org/std/sync/struct.Arc.html">std::sync::Arc&lt;T&gt;</a>
+      </dt>
+      <dd>thread-safe, atomic-reference-counted poitner</dd>
     </dl>
     <h2 id="crates">Crates of Note</h2>
     <dl>
